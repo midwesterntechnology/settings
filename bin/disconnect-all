@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#rfkill block bluetooth
+bluetoothctl paired-devices | cut -d" " -f2 | awk '{print "disconnect " $0}' | bluetoothctl
+

@@ -1,0 +1,3 @@
+#!/bin/sh
+xhost local:anon
+ssh-askpass | script .anonscript -qc 'su - anon -c "DISPLAY=:0 google-chrome --class=Anon"'

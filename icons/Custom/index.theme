@@ -1,0 +1,21 @@
+[Icon Theme]
+Name=Custom
+Inherits=gnome,mate
+Comment=Custom icon theme for MATE. Just the basics.
+
+Directories=status/symbolic,places/symbolic
+
+[status/symbolic]
+Size=16
+Context=Status
+Type=Scalable
+MinSize=16
+MaxSize=256
+
+[places/symbolic]
+Size=16
+Context=Status
+Type=Scalable
+MinSize=16
+MaxSize=256
+
