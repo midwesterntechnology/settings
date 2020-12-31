@@ -1,5 +1,5 @@
 
-node "sam.attlocal.net" {
+#node "sam.attlocal.net" {
 #    package { "google-chrome":
 #        provider => dpkg,
 #        ensure => latest,
@@ -36,5 +36,5 @@ node "sam.attlocal.net" {
         source => '/opt/sb/icons',
         recurse => true,
     }
-}
+#}
 
