@@ -1127,7 +1127,7 @@ StScrollBar {
       padding-left: 1px; }
   .window-list-item-box:active, .window-list-item-box:checked, .window-list-item-box:focus, .window-list-item-box:running {
     color: #202020;
-    background-color: rgba(0, 0, 0, 0.3); }
+    background-color: #D7D7D7; }
   .window-list-item-box:hover, .window-list-item-box:groupFocus {
     color: #202020;
     background-color: #6cabcd; }
