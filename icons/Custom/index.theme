@@ -1,21 +1,13 @@
 [Icon Theme]
 Name=Custom
-Inherits=gnome,mate
-Comment=Custom icon theme for MATE. Just the basics.
+Inherits=Mint-Y-Aqua
+Comment=Custom icon theme for Cinnamon. Just the basics.
+Directories=
 
-Directories=status/symbolic,places/symbolic
-
-[status/symbolic]
-Size=16
-Context=Status
-Type=Scalable
-MinSize=16
-MaxSize=256
-
-[places/symbolic]
-Size=16
-Context=Status
-Type=Scalable
-MinSize=16
-MaxSize=256
+#[24x24/panel]
+#Context=Status
+#Size=24
+#MinSize=16
+#MaxSize=256
+#Type=Scalable
 
