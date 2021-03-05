@@ -31,6 +31,11 @@
         source => '/opt/sb/themes',
         recurse => true,
     }
+    file { "/usr/local/share/backgrounds":
+        ensure => "directory",
+        source => '/opt/sb/backgrounds',
+        recurse => true,
+    }
     file { "/usr/local/share/icons":
         ensure => directory,
         source => '/opt/sb/icons',
